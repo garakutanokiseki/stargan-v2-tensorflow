@@ -1,12 +1,14 @@
 ## Disclaimer
 
-This is a fork of . The original paper is 
+StarGAN v2 is not my original work. This is a fork of https://github.com/clovaai/stargan-v2-tensorflow, one of the official repos for StarGAN v2. The original paper is 
+```
 @inproceedings{choi2020starganv2,
   title={StarGAN v2: Diverse Image Synthesis for Multiple Domains},
   author={Yunjey Choi and Youngjung Uh and Jaejun Yoo and Jung-Woo Ha},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
   year={2020}
 }
+```
 The usage of this project is for non-commercial usage for a university course.
 
 ## StarGAN v2 &mdash; Official TensorFlow Implementation [[Paper]](https://arxiv.org/abs/1912.01865) [[Pytorch]](https://github.com/clovaai/stargan-v2)
