@@ -11,13 +11,6 @@ StarGAN v2 is not my original work. This is a fork of https://github.com/clovaai
 ```
 The usage of this project is for non-commercial usage for a university course.
 
-## StarGAN v2 &mdash; Official TensorFlow Implementation [[Paper]](https://arxiv.org/abs/1912.01865) [[Pytorch]](https://github.com/clovaai/stargan-v2)
-## Implemented by [Junho Kim](http://bit.ly/jhkim_ai)
-
-<div align="center">
-  <img src="./assets/teaser.png">
-</div>
-
 ## Requirements
 * `Tensorflow == 2.1.0`
 * `Tensorflow-addons == 0.9.1`
