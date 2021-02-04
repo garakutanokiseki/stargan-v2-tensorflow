@@ -14,7 +14,7 @@ from tensorflow.python.data.experimental import AUTOTUNE, prefetch_to_device
 
 from glob import glob
 from tqdm import tqdm
-from tqdm.tqdm.contrib import tenumerate
+from tqdm.contrib import tenumerate
 from networks import *
 from copy import deepcopy
 import PIL.Image
