@@ -96,7 +96,9 @@ def main():
     args = parse_args()
 
     automatic_gpu_usage()
-
+    
+    # TODO: remove
+    print(args)
     gan = StarGAN_v2(args)
 
     # build graph
