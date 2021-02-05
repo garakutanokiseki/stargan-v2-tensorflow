@@ -66,7 +66,7 @@ def parse_args():
 """checking arguments"""
 def check_args(args):
     # --checkpoint_dir
-    check_folder(args.checkpoint_dir)4/1AY0e-g5JM4F6JPWnIsL--kxwdVtDkPAeXAoyzCMUMR-jbM-gR72eKKFoq5E
+    check_folder(args.checkpoint_dir)
 
     # --result_dir
     check_folder(args.result_dir)
