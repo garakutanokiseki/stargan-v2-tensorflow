@@ -91,7 +91,7 @@ class MappingNetwork(tf.keras.Model):
 
         for i in range(3):
             layers += [FullyConnected(units=self.hidden_dim, sn=self.sn, name='shared_fc_' + str(i))]
-            layers += [Relu(name='shared_fc_-relu')]
+            layers += [Relu(name='shared_fc_-relu' + str(i)]
 
         shared_layers = Sequential(layers)
 
