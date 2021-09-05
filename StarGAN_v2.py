@@ -86,6 +86,8 @@ class StarGAN_v2():
         dataset_path = './dataset'
 
         self.dataset_path = os.path.join(dataset_path, self.dataset_name, 'train')
+        # TODO: remove
+        print(self.dataset_path)
         self.test_dataset_path = os.path.join(dataset_path, self.dataset_name, 'test')
         self.domain_list = sorted([os.path.basename(x) for x in glob(self.dataset_path + '/*')])
         self.num_domains = len(self.domain_list)
